@@ -57,4 +57,7 @@ public class CellPhone {
     public String getCarrier() {
         return carrier;
     }
+    public void dial(String phoneNumber){
+        System.out.println(this.getOwner()+"'s phone is calling "+ phoneNumber);
+    }
 }
